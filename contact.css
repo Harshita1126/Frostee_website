@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 280px;
+    height: 100vh;
+    background-color: rgb(20, 15, 12);
+    position: fixed;
+}
+
+.navbar .brand-logo img {
+    width: 220px;
+    height: 70px;
+    padding: 20px 28px;
+}
+
+.navbar #items {
+    font-size: 28px;
+}
+
+#items a{
+    display: block;
+    width: 280px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Satisfy' , cursive;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#items a:hover {
+    background-color: pink;
+    color: rgb(20, 15, 12);
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.Address p{
+    color: white;
+    font-family: 'Satisfy' , cursive;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+p{
+    padding: 3px 15px;
+}
+
+p:hover {
+    color: pink;
+}
+
+#banner-img {
+    width: 78.8%;
+    height: 90vh;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 280px;
+}
+
+.overlay {
+    width: 78.99%;
+    height: 90.5vh;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    opacity: 0.70;
+    margin-left: 280px;
+}
+
+.midd {
+    color: white;
+    position: relative;
+    top: -350px;
+    left: 650px;
+    line-height: 60px;
+    width: 350px;
+}
+
+.midd h1 {
+    font-size: 65px;
+}
+
+.midd h2 {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.form {
+    margin-left: 280px;
+} 
+
+.form h3 {
+    font-family: 'Satisfy',cursive;
+    color: rgb(235, 19, 77);
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #070707;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 300px;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+  }
+  
+  input[type=submit]:hover {
+    background-color:rgb(235, 19, 77);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+  #hr1 {
+    position: relative;
+    left: 300px;
+    top: -30px;
+  }

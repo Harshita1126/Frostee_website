@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.side-navbar {
+    width: 280px;
+    height: 100vh;
+    background-color: rgb(20, 15, 12);
+    position: fixed;
+}
+
+.side-navbar .brand-logo img {
+    width: 220px;
+    height: 70px;
+    padding: 20px 28px;
+}
+
+.side-navbar #items {
+    font-size: 28px;
+}
+
+#items a{
+    display: block;
+    width: 280px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Satisfy' , cursive;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#items a:hover {
+    background-color: pink;
+    color: rgb(20, 15, 12);
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.Address p{
+    color: white;
+    font-family: 'Satisfy' , cursive;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+p{
+    padding: 3px 15px;
+}
+
+
+.slider {
+    width: 78.8%;
+    height: 100vh;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 280px;
+}
+
+#slideImg {
+    width: 100%;
+    height: 100vh;
+    animation: animate 3s linear infinite ;
+}
+
+@keyframes animate {
+    0% {
+        clip-path: polygon(100% 29%, 100% 72%, 0 73%, 0 30%);
+    }
+    50% {
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    }
+}
+
+.overlay {
+    width: 78.8%;
+    height: 100vh;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    opacity: 0.70;
+    margin-left: 280px;
+}
+
+.content2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    line-height: 25px;
+}
+
+.content2 h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+}
+
+#display_img {
+    width: 385px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.content2 p {
+    color: white;
+    font-size: 20px;
+}
+
+.menu-btn a {
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-btn a:hover {
+    background-color: pink;
+    color: rgb(20, 15, 12);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.container1 {
+    width: 78.8%;
+    height: 75vh;
+    background-color: white;
+    line-height: 35px;
+    margin-left: 280px;
+}
+
+.container2 {
+    width: 78.8%;
+    height: 75vh;
+    background-color: white;
+    line-height: 35px;
+    margin-left: 280px;
+}
+
+.container1 h1 {
+    color: rgb(235, 19, 77);
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    padding: 50px 100px;
+}
+
+.container1 img {
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 650px;
+    margin-top: -20px
+}
+
+.container1 h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -220px;
+    margin-left: 100px;
+    width: 510px;
+}
+
+.container1 p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 85px;
+    width: 510px;
+}
+
+.container2 h1 {
+    color: rgb(235, 19, 77);
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    padding: 30px;
+    width: 700px;
+    margin-left: 300px;
+}
+
+.container2 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 20px
+}
+
+.container2 h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -254px;
+    margin-left: 530px;
+    width: 510px;
+}
+
+.container2 p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 515px;
+    width: 510px;
+}
+
+#hr1 {
+    margin-left: 840px;
+}
+
+#hr2 {
+    margin-left: 280px;
+}
+
+#hr3 {
+    margin-left: 840px;
+}
